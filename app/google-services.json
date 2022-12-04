@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "154788236214",
+    "project_id": "lab-project-cse402---chat-app",
+    "storage_bucket": "lab-project-cse402---chat-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:154788236214:android:27e9a81b6ef2b93e534f17",
+        "android_client_info": {
+          "package_name": "com.labproject.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "154788236214-tks02c0gjif4flshfn7tqednjdpl0o9h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8ad0e36CL2Hhzj6yaeitb1gR1M3GWS94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "154788236214-tks02c0gjif4flshfn7tqednjdpl0o9h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
