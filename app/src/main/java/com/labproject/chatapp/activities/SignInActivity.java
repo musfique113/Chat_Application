@@ -25,7 +25,7 @@ public class SignInActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         preferenceManager = new PreferenceManager(getApplicationContext());
-//        //if login once , untile logout , it will stay loged in
+//        //if login once , until logout , it will stay logged in
         if (preferenceManager.getBoolean(Constants.KEY_IS_SIGNED_IN)){
             Intent intent = new Intent(getApplicationContext(),MainActivity.class);
             startActivity(intent);

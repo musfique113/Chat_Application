@@ -92,13 +92,11 @@
         android:clipToPadding="false"
         android:orientation="vertical"
         android:padding="@dimen/_20sdp"
-        app:stackFromEnd="true"
-        android:visibility="gone"
+        android:visibility="invisible"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintBottom_toBottomOf="@id/viewBackground"
         app:layout_constraintTop_toBottomOf="@id/viewSupporter"
-        >
-    </androidx.recyclerview.widget.RecyclerView>
+        app:stackFromEnd="true"></androidx.recyclerview.widget.RecyclerView>
 
     <ProgressBar
         android:id="@+id/progressBar"
