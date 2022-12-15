@@ -109,6 +109,7 @@ public class SignInActivity extends AppCompatActivity {
 
 
     //manually data inserting to FireStore
+    // okay - working
 //    private  void addDataToFireStore(){
 //
 //        FirebaseFirestore database = FirebaseFirestore.getInstance();
