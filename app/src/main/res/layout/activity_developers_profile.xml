@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:orientation="vertical"
+    tools:context=".contribution.DevelopersProfile">
+
+    <!--Top Header Layout-->
+
+    <LinearLayout
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="40dp"
+        android:gravity="center_vertical"
+        android:padding="16dp">
+
+
+        <ImageView
+            android:id="@+id/imageBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/background_icon"
+            android:contentDescription="TODO"
+            android:padding="10dp"
+            android:src="@drawable/ic_back"
+            app:tint="@color/white" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contribution"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <!--        <RelativeLayout-->
+        <!--            android:layout_width="50dp"-->
+        <!--            android:layout_height="50dp">-->
+
+        <!--            <ImageView-->
+        <!--                android:layout_width="40dp"-->
+        <!--                android:layout_height="40dp"-->
+        <!--                android:layout_centerInParent="true"-->
+        <!--                android:padding="6dp"-->
+        <!--                android:src="@drawable/ic_notifications_white_24dp" />-->
+
+        <!--        </RelativeLayout>-->
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/topbar"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp">
+
+            <!--dev one begins -->
+            <!--dev one ends -->
+
+            <!--dev three begins-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circularbordersolid"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!--                <androidx.cardview.widget.CardView-->
+                <!--                    android:layout_width="150dp"-->
+                <!--                    android:layout_height="90dp"-->
+                <!--                    app:cardCornerRadius="6dp"-->
+                <!--                    app:cardElevation="0dp">-->
+
+                <!--                    <ImageView-->
+                <!--                        android:layout_width="150dp"-->
+                <!--                        android:layout_height="90dp"-->
+                <!--                        android:scaleType="centerCrop"-->
+                <!--                        android:src="@drawable/pp" />-->
+
+                <!--                </androidx.cardview.widget.CardView>-->
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_80sdp"
+                    android:background="@drawable/background_image"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/devone"
+                    app:riv_oval="true"></com.makeramen.roundedimageview.RoundedImageView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+
+                        android:text="Mahfujur Rahman Musfique"
+                        android:textColor="#424242"
+                        android:textSize="21sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/devOneEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="musfique113@gamil.com"
+                        android:textSize="14sp" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingBottom="10dp">
+
+                    <LinearLayout
+                        android:id="@+id/btFacebook"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:padding="8dp">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:background="@drawable/circular_grey_bordersolid"
+                            android:padding="7dp"
+                            android:src="@drawable/fb" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="2dp"
+                                android:text="@veryGOODmusfique"
+                                android:textColor="@color/primary_dark"
+                                android:textSize="@dimen/_9ssp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btGithub"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:padding="8dp">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:background="@drawable/circular_grey_bordersolid"
+                            android:padding="7dp"
+                            android:src="@drawable/githubmark" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="2dp"
+                                android:text="@musfique113"
+                                android:textColor="@color/primary_dark"
+                                android:textSize="@dimen/_9ssp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/circularbordersolid"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/circularbordersolid"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <!--                    <androidx.cardview.widget.CardView-->
+                    <!--                        android:layout_width="150dp"-->
+                    <!--                        android:layout_height="90dp"-->
+                    <!--                        app:cardCornerRadius="6dp"-->
+                    <!--                        app:cardElevation="0dp">-->
+
+                    <!--                        <ImageView-->
+                    <!--                            android:layout_width="150dp"-->
+                    <!--                            android:layout_height="90dp"-->
+                    <!--                            android:scaleType="centerCrop"-->
+                    <!--                            android:src="@drawable/pp" />-->
+
+                    <!--                    </androidx.cardview.widget.CardView>-->
+
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:layout_width="@dimen/_80sdp"
+                        android:layout_height="@dimen/_80sdp"
+                        android:background="@drawable/background_image"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/devtwo"
+                        app:riv_oval="true"></com.makeramen.roundedimageview.RoundedImageView>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="288dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:text="Ariful Hasan"
+                            android:textColor="#424242"
+                            android:textSize="21sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/devTwoEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="ariful.cse37@gmail.com"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingBottom="10dp">
+
+                        <LinearLayout
+                            android:id="@+id/btFacebookd3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:padding="8dp">
+
+                            <ImageView
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:background="@drawable/circular_grey_bordersolid"
+                                android:padding="7dp"
+                                android:src="@drawable/fb" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="2dp"
+                                    android:text="@sanim.official.fb"
+                                    android:textColor="@color/primary_dark"
+                                    android:textSize="@dimen/_9ssp" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btGithubd3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:gravity="center"
+                            android:padding="8dp">
+
+                            <ImageView
+
+                                android:layout_width="35dp"
+                                android:layout_height="35dp"
+                                android:background="@drawable/circular_grey_bordersolid"
+                                android:padding="7dp"
+                                android:src="@drawable/githubmark" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="2dp"
+                                    android:text="@arfhsanim"
+                                    android:textColor="@color/primary_dark"
+                                    android:textSize="@dimen/_9ssp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+            <!--dev three ends -->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
