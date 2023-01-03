@@ -127,22 +127,28 @@ public class SignUpActivity extends AppCompatActivity {
             showToast("Selected profile image");
             return false;
         } else if (binding.inputName.getText().toString().trim().isEmpty()) {
-            showToast("Enter name");
+            binding.inputName.setError("Enter name");
+            //showToast("Enter name");
             return false;
         } else if (binding.inputEmail.getText().toString().trim().isEmpty()) {
-            showToast("Enter email");
+            binding.inputEmail.setError("Enter email");
+            //showToast("Enter email");
             return false;
         } else if (!Patterns.EMAIL_ADDRESS.matcher(binding.inputEmail.getText().toString()).matches()) {
-            showToast("Enter valid email");
+            binding.inputEmail.setError("Enter valid email format");
+            //showToast("Enter valid email");
             return false;
         } else if (binding.inputPassword.getText().toString().trim().isEmpty()) {
-            showToast("Enter your password");
+            binding.inputPassword.setError("Enter password");
+            //showToast("Enter your password");
             return false;
         } else if (binding.inputconfPassword.getText().toString().trim().isEmpty()) {
-            showToast("Confirm your password");
+            binding.inputconfPassword.setError("Confirm password fields empty");
+            //showToast("Confirm your password");
             return false;
         } else if (!binding.inputPassword.getText().toString().equals(binding.inputconfPassword.getText().toString())) {
-            showToast("Password and Confirm password must be same");
+            //showToast("Password and Confirm password must be same");
+            binding.inputconfPassword.setError("Password and Confirm password must be same");
             return false;
         } else {
             return true;
