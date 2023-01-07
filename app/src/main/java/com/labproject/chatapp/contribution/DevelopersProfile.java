@@ -88,6 +88,13 @@ public class DevelopersProfile extends AppCompatActivity {
             }
         });
 
+        binding.btYt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                gotoUrl("https://www.youtube.com/@chiragkachhadiya");
+            }
+        });
+
 
 
     }
