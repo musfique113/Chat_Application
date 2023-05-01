@@ -43,4 +43,14 @@ If you run into any issues while using the app, try the following:
 
 If these steps do not resolve the issue, you can try searching for a solution online or opening an issue in the repository.
 
-![319556482_715673066346274_6929169422682602860_n](https://user-images.githubusercontent.com/53111065/207936904-e7bfcf05-aac6-4a38-8ef5-f1c1c9b6fa4d.jpg)
+## Screenshoots
+<img src="https://user-images.githubusercontent.com/53111065/235496593-98a3e9bb-b4cf-49be-8335-301df062d0d5.jpeg" alt="1" width="200" height="400"> <img src="https://user-images.githubusercontent.com/53111065/235496596-c75e1cd5-a591-49af-8f2e-8c3caed88948.jpeg" alt="2" width="200" height="400"> <img src="https://user-images.githubusercontent.com/53111065/235496577-11c885f7-bc13-4e2a-bb83-fdcdc6e95a1e.jpeg" alt="3" width="200" height="400">
+
+
+
+<img src="https://user-images.githubusercontent.com/53111065/235496579-7125dca7-8d3f-496f-8302-e15a5852c8c7.jpeg" alt="4" width="200" height="400"> <img src="https://user-images.githubusercontent.com/53111065/235496582-052788cc-bbe4-43a0-938e-e8dd936c58c8.jpeg" alt="5" width="200" height="400"> <img src="https://user-images.githubusercontent.com/53111065/235496588-578cef9c-5961-4da0-8a34-ba7d6ee84df4.jpeg" alt="6" width="200" height="400">
+
+
+
+<img src="https://user-images.githubusercontent.com/53111065/235496592-ea172d0a-a8bf-4c86-9ec8-7fd3c192c15a.jpeg" alt="7" width="200" height="400">
+
